@@ -1,7 +1,9 @@
 Dynamic Sign Language Recognition
 A system for recognizing dynamic sign language gestures from video inputs using a BiLSTM model, with features extracted via MediaPipe and deployed on AWS using a Flask API.
-Overview
-This project implements a Dynamic Sign Language Recognition system that processes video inputs to predict sign language gestures. It uses a Bidirectional LSTM (BiLSTM) model trained on 2,319 video samples, with MediaPipe for feature extraction. The system is deployed on AWS, where a Flask API handles video uploads and returns predictions.
+Overview. This project implements a Dynamic Sign Language Recognition system that processes video inputs to predict sign language gestures. It uses a Bidirectional LSTM (BiLSTM) model trained on 2,319 video samples, with MediaPipe for feature extraction. The system is deployed on AWS, where a Flask API handles video uploads and returns predictions.
+
+<img width="930" height="863" alt="aws" src="https://github.com/user-attachments/assets/0c433932-8fe1-4840-829d-22ebb64d977b" />
+
 Features
 
 Real-time gesture recognition from video inputs
