@@ -1,11 +1,26 @@
-Dynamic Kannada Sign Language Recognition
+## Dynamic Kannada Sign Language Recognition
+The Sign Language Recognition (SLR) system for Dynamic Kannada Sign Language (KSL) words utilizes three deep learning models: LSTM, BiLSTM, and Transformers. These models have been trained on a dataset comprising 3960 videos featuring various signers performing common signs used in everyday communication.
+## Dataset Overview
+The dataset is organized into 4 sub-categories:
 
-The Sign Language Recognition (SLR) of Dynamic Kannada Sign Language (KSL) words is done using three deep learning models, namely LSTM, BiLSTM and Transformers. All 3 models have been trained on a dataset of 3960 videos that consists of various signers performing common signs used in day to day communication.
+1. Fruits
 
-The Signs have been divided into 4 sub-categories : Fruits, Months, Time and Weekdays. There are multiple classes under each folder in the sub-category. In total there are 33 classes and each class consists of 120 videos, thus totaling to 3960 videos.
+2. Months
 
-This repo contains the following:
--> Code for feature extraction
--> npy files of the ectracted features
--> Model architecture and it's code 
--> Code for model demo using API calls
+3. Time
+
+4. Weekdays
+
+
+Each sub-category contains multiple classes, with a total of 33 classes across all categories. Each class includes 120 videos, resulting in a total of 3960 videos.
+## Repository Contents
+This repository includes the following components:
+
+1. Code for Feature Extraction: Scripts to extract features from the video dataset.
+
+2. NPY Files: Pre-extracted features stored in .npy format.
+
+3. Model Architecture and Code: Implementation details and source code for the LSTM, BiLSTM, and Transformer models.
+
+4. Model Demo Code: Scripts demonstrating the models' functionality via API calls.
+
