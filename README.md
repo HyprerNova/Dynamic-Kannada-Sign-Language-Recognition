@@ -3,7 +3,7 @@ The Sign Language Recognition (SLR) system for Dynamic Kannada Sign Language (KS
 
 Be sure to check out the demo in the about section ! 🚀
 
-## Publication of the project in Springer Nature Scientific Reports
+## Publication of the project in Springer Nature Scientific Reports 🍾
 We are proud to announce that our paper has been in Springer Nature  Scientific Reports Jorunal. 
 Please feel free to read the paper: [Research paper](https://www.nature.com/articles/s41598-026-40181-7)
 
